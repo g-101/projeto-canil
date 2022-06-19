@@ -1,8 +1,8 @@
 
 
 exports.home = (req, res) => {
-    res.send("home no controller");
-    // res.render("page/pages");
+    // res.send("home no controller");
+    res.render("pages/page");
 }
 
 exports.dogs = (req, res) => {
