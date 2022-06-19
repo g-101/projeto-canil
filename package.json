@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devStart": "nodemon -e js,json,mustache index.js"
+    "devStart": "nodemon -e js,json,mustache src/index.js"
   },
   "keywords": [],
   "author": "",

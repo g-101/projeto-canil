@@ -15,7 +15,7 @@ app.set("view engine", "mustache");
 app.set("views", path.join(__dirname, "/views"));
 
 //STATIC
-app.use(express.static(path.join(__dirname, "/public")));
+app.use(express.static(path.join(__dirname, "../public")));
 
 //ROTAS
 app.use(mainRouters)
