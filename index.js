@@ -4,6 +4,8 @@ const mustache = require("mustache-express");
 
 const path = require("path");
 
+const mainRouters = require("./routers/main.js");
+
 dotenv.config();
 const app = express();
 
@@ -16,6 +18,10 @@ app.set("views", path.join(__dirname, "/views"));
 app.use(express.static(path.join(__dirname, "/public")));
 
 //ROTAS
+app.use(mainRouters)
 
+app.use((req, res) => {
+    res.status(404).send("Pagina não encontrada");
+})
 
 app.listen(process.env.PORT, () => console.log("http://localhost:3333"));
