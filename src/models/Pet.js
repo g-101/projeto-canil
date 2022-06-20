@@ -125,11 +125,11 @@ const Pet = {
         return data;
     },
     getFromType: function(pet) {
-        return data.filter((item) => item.type === pet);
+        return data.filter( item => item.type === pet);
     },
     getFromName: function(name) {
-        return data.filter( (item) => {
-            item.name.toLowerCase().indexOf( name.toLowerCase() ) > -1;
+        return data.filter( item => {
+            return item.name.toLowerCase().indexOf( name.toLowerCase() ) > -1;
         });
     }
 }
