@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-    <img src="public/images/preview.gif">
+    <img alt="gif do website" src="public/images/preview.gif">
 </h1>
 <h2 align="center">
     <a href="https://projeto-canil.herokuapp.com/" target="_blank">Acesse aqui</a>
