@@ -1,6 +1,15 @@
-# projeto-canil
+<h1 align="center">
+    projeto-canil
+</h1>
 
-## Indice
+<h1 align="center">
+    <img src="public/images/preview.gif">
+</h1>
+<h2 align="center">
+    <a href="https://projeto-canil.herokuapp.com/" target="_blank">Acesse aqui</a>
+</h2>
+
+## Índice
 
 - [Sobre](#-sobre)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
@@ -10,7 +19,13 @@
 
 ## Sobre
 
-O projeto é um website para listar animais disponiveis para adoção, que foi criado dentro do curso de nodejs, com o intuito de colocar em prática o que foi estudado.
+O projeto **PetDevShop** é um website para listar animais disponíveis para adoção, com o intuito de colocar em prática os seguintes assuntos estudados:
+
+- Introdução ao MVC
+- Template Engine
+- Roteamento
+- Arquivos Estáticos
+- Deploy
 
 ---
 
@@ -18,7 +33,7 @@ O projeto é um website para listar animais disponiveis para adoção, que foi c
 
 - Node.js
 - Express.js
-- Mustache
+- Mustache Express
 - Heroku
 
 ---
@@ -35,7 +50,7 @@ O projeto é um website para listar animais disponiveis para adoção, que foi c
 
 ---
 
-### Pré-requisitos globais:
+### Pré-requisitos Globais:
 
 `npm i g nodemon`
 
