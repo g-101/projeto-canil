@@ -8,13 +8,6 @@
 <h2 align="center">
     <a href="https://projeto-canil.herokuapp.com/" target="_blank">Acesse aqui</a>
 </h2>
-
-## Índice
-
-- [Sobre](#-sobre)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Como baixar o projeto](#-como-baixar-o-projeto)
-
 ---
 
 ## Sobre
